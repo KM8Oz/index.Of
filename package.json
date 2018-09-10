@@ -1,0 +1,23 @@
+{
+  "name": "index.of",
+  "version": "1.0.0",
+  "description": "array from\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dreturn array from indexed directory, bypass cors-origin",
+  "main": "index.js",
+  "scripts": {
+    "test": "indexOf.get()\u001b[Durl)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/KM8Oz/index.Of.git"
+  },
+  "keywords": [
+    "index",
+    "of",
+    "cors",
+    "origin",
+    "xhl",
+    "array"
+  ],
+  "author": "kmoz000",
+  "license": "GPL-3.0"
+}
