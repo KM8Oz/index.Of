@@ -12,8 +12,8 @@ export default class index_Of {
      * @return {Promise}        Returns a promise, with an array of found href's and innerHTML
      */
     static get(url,loader=false){
-        return new Promise(resolve =>
-           setTimeout(() => {
+        return new Promise(resolve => {
+    
        var progressBar = document.getElementById("loader"),result=[],Dmc,
       client = new XMLHttpRequest(),parser = new DOMParser;
    client.open("GET", "https://cors-anywhere.herokuapp.com/"+url,true);
@@ -39,8 +39,8 @@ export default class index_Of {
    
    client.send();
    resolve(result);
-   }, 2000)
-        )
+
+})
    }
 
 }
